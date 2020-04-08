@@ -82,7 +82,7 @@ export default {
       if (title === 'My loyalty card' || title === 'My product reviews') {
         this.$store.dispatch('notification/spawnNotification', {
           type: 'warning',
-          message: this.$t('This feature is not implemented yet! Please take a look at https://github.com/DivanteLtd/vue-storefront/issues for our Roadmap!'),
+          message: this.$t('This feature is not implemented yet! Please take a look at https://github.com/facundofierro/vue-storefront/issues for our Roadmap!'),
           action1: { label: this.$t('OK') }
         })
       }
