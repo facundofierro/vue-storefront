@@ -108,9 +108,9 @@
     "maxNetworkTaskAttempts": 1,
     "maxCartBypassAttempts": 1
   },
-  "defaultStoreCode": "",
+  "defaultStoreCode": "de",
   "storeViews": {
-    "multistore": false,
+    "multistore": true,
     "commonCache": false,
     "mapStoreUrlsFor": ["de", "it"],
     "de": {
