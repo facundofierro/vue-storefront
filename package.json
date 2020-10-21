@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DivanteLtd/vue-storefront"
+    "url": "git+https://github.com/facundofierro/vue-storefront"
   },
   "keywords": [
     "vue",
@@ -22,9 +22,9 @@
   "author": "pkarw <pkarwatka@divante.pl> and contributors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DivanteLtd/vue-storefront/issues"
+    "url": "https://github.com/facundofierro/vue-storefront/issues"
   },
-  "homepage": "https://github.com/DivanteLtd/vue-storefront/README.md",
+  "homepage": "https://github.com/facundofierro/vue-storefront/README.md",
   "scripts": {
     "static-server": "cross-env TS_NODE_PROJECT=\"tsconfig-build.json\" ts-node ./core/scripts/static-server.ts",
     "generate": "cross-env TS_NODE_PROJECT=\"tsconfig-build.json\" ts-node ./core/scripts/generate.ts",
@@ -71,7 +71,7 @@
     "isomorphic-fetch": "^2.2.1",
     "js-sha3": "^0.8.0",
     "localforage": "^1.7.2",
-    "magento2-rest-client": "github:DivanteLtd/magento2-rest-client",
+    "magento2-rest-client": "github:facundofierro/magento2-rest-client",
     "ms": "^2.1.2",
     "pm2": "^2.10.4",
     "proxy-polyfill": "^0.3.0",

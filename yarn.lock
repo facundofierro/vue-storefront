@@ -10612,9 +10612,9 @@ macos-release@^2.2.0:
   resolved "https://registry.yarnpkg.com/macos-release/-/macos-release-2.3.0.tgz#eb1930b036c0800adebccd5f17bc4c12de8bb71f"
   integrity sha512-OHhSbtcviqMPt7yfw5ef5aghS2jzFVKEFyCJndQt2YpSQ9qRVSEv2axSJI1paVThEu+FFGs584h/1YhxjVqajA==
 
-"magento2-rest-client@github:DivanteLtd/magento2-rest-client":
+"magento2-rest-client@github:facundofierro/magento2-rest-client":
   version "0.0.12"
-  resolved "https://codeload.github.com/DivanteLtd/magento2-rest-client/tar.gz/29cfac4c4f9982f99b7832621820f93dcf6f9dd4"
+  resolved "https://codeload.github.com/facundofierro/magento2-rest-client/tar.gz/29cfac4c4f9982f99b7832621820f93dcf6f9dd4"
   dependencies:
     humps "^1.1.0"
     oauth-1.0a "^1.0.1"

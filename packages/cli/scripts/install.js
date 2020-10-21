@@ -35,7 +35,7 @@ module.exports = function (installationDir) {
     cloneVersion: {
       title: 'Copying Vue Storefront files',
       task: answers => {
-        return execa.shell(`git clone --quiet --single-branch --branch ${answers.specificVersion} https://github.com/DivanteLtd/vue-storefront.git ${installationDir} && cd ${installationDir}/core/scripts && git remote rm origin`)
+        return execa.shell(`git clone --quiet --single-branch --branch ${answers.specificVersion} https://github.com/facundofierro/vue-storefront.git ${installationDir} && cd ${installationDir}/core/scripts && git remote rm origin`)
       }
     },
     runInstaller: {
@@ -44,10 +44,10 @@ module.exports = function (installationDir) {
     },
     getStorefrontVersions: {
       title: 'Check avalilable versions',
-      task: () => execa.stdout('git', ['ls-remote', '--tags', 'https://github.com/DivanteLtd/vue-storefront.git']).then(result => {
+      task: () => execa.stdout('git', ['ls-remote', '--tags', 'https://github.com/facundofierro/vue-storefront.git']).then(result => {
           allTags = result.match(/refs\/tags\/v1.([0-9.]+)(-rc.[0-9])?/gm).map(tag => tag.replace('refs/tags/', ''))
           allTags = semverSort.desc(allTags)
-          execa.stdout('git', ['ls-remote', '--heads', 'https://github.com/DivanteLtd/vue-storefront.git']).then(branches => {
+          execa.stdout('git', ['ls-remote', '--heads', 'https://github.com/facundofierro/vue-storefront.git']).then(branches => {
             let rcBranches = branches.match(/refs\/heads\/release\/v1.([0-9.]+)/gm).map(tag => tag.replace('refs/heads/', ''))
             availableBranches = [...rcBranches, ...availableBranches]
           })

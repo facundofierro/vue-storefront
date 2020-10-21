@@ -11,7 +11,7 @@ module.exports = {
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/diff2html/2.12.1/diff2html.min.js'}]
   ],
   themeConfig: {
-    repo: 'DivanteLtd/vue-storefront',
+    repo: 'facundofierro/vue-storefront',
     docsDir: 'docs',
     editLinks: true,
     sidebarDepth: 3,
